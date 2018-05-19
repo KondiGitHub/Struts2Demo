@@ -10,8 +10,11 @@
 </head>
 <body>
 <h1>Enter Protien</h1>
-<input type="text" />
-<input type="button" value ="Enter" />
+<s:form>
+	<s:textfield name="enteredProtein" />
+	<s:submit value ="Enter" />
+</s:form>
+<div>Last amount entered:<s:property value="enteredProtein" /></div>
 <div>Total for the day :100 grams</div>
 <div>Goal :200 grams</div>
 </body>
