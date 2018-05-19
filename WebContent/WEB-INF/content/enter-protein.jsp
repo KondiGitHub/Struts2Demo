@@ -16,6 +16,6 @@
 </s:form>
 <div>Last amount entered:<s:property value="enteredProtein" /></div>
 <div>Total for the day :100 grams</div>
-<div>Goal :200 grams</div>
+<div><s:property value="goalText"/></div>
 </body>
 </html>
