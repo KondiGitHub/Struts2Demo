@@ -9,7 +9,7 @@ public class HelloAction implements Action {
 	@Override
 	public String execute() throws Exception {
 		
-		setGreeting("Hello Struts 2");
+		setGreeting("Hello Struts 2!!!!!!");
 		
 		return "success";
 	}
