@@ -4,19 +4,21 @@ import com.opensymphony.xwork2.Action;
 
 public class EnterProtein implements Action {
 	
-	private String enteredProtein;
+	private int enteredProtein;
     
 	@Override
 	public String execute() throws Exception {
 		// TODO Auto-generated method stub
+		ProteinTrackingService proteinTrackingService = new ProteinTrackingService();
+		proteinTrackingService.addProtein(enteredProtein);
 		return SUCCESS;
 	}
 	
-	public String getEnteredProtein() {
+	public int getEnteredProtein() {
 		return enteredProtein;
 	}
 
-	public void setEnteredProtein(String enteredProtein) {
+	public void setEnteredProtein(int enteredProtein) {
 		this.enteredProtein = enteredProtein;
 	}
 
