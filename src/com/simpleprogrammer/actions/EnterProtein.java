@@ -12,7 +12,7 @@ public class EnterProtein extends ActionSupport {
 		// TODO Auto-generated method stub
 		ProteinTrackingService proteinTrackingService = new ProteinTrackingService();
 		proteinTrackingService.addProtein(enteredProtein);
-		return ERROR;
+		return "abc";
 	}
 	
 	public int getEnteredProtein() {
