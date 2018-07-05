@@ -6,6 +6,7 @@ import com.opensymphony.xwork2.ActionSupport;
 public class EnterProtein extends ActionSupport {
 	
 	private int enteredProtein;
+	private int test;
     
 	@Override
 	public String execute() throws Exception {
